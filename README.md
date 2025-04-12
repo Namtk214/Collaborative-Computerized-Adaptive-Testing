@@ -27,11 +27,12 @@
   <p>Dự án CCAT là hệ thống kiểm tra thích ứng giúp đánh giá năng lực của học sinh dựa trên các bài kiểm tra được cá nhân hóa. Hệ thống nhằm tối ưu hóa quá trình đánh giá và cải thiện trải nghiệm học tập.</p>
   <p>là một hệ thống kiểm tra thích ứng theo thời gian thực, được xây dựng dựa trên lý thuyết IRT và tối ưu hóa bằng thuật toán MAP. Khi bắt đầu bài thi, hệ thống giả định tất cả học sinh có trình độ ngang nhau và đưa ra câu hỏi trung bình để đánh giá năng lực ban đầu. Sau mỗi câu trả lời, năng lực học sinh được cập nhật và câu hỏi tiếp theo được chọn sao cho phù hợp – vừa sức, không quá dễ hay quá khó.</p>
   
-  <p>Việc triển khai CCAT không tốn nhiều chi phí tính toán, chỉ cần một ngân hàng đề thi chất lượng và đủ dữ liệu. Ví dụ, một bài thi 20 câu cần ít nhất 60 câu hỏi trong ngân hàng, mỗi câu nên có tối thiểu 30 lượt làm bài.</p>
-  
   <p>Hệ thống còn tích hợp mô hình ngôn ngữ lớn (LLM) kết hợp với RAG để phản hồi cá nhân hóa. Khi học sinh làm sai, hệ thống không chỉ đưa ra đáp án đúng mà còn giải thích sát với chương trình học, đảm bảo không bị “bịa” thông tin.</p>
 
 <p>Ngân hàng câu hỏi được thu thập từ nhiều nguồn và xử lý tự động: chuẩn hóa, phân loại, gán nhãn, và embedding ngữ nghĩa. Độ khó câu hỏi được điều chỉnh liên tục theo dữ liệu thực tế từ người học.</p>
+<p>CCAT (Collaborative Computerized Adaptive Testing) là một nền tảng web thông minh hỗ trợ kiểm tra và luyện tập thích ứng theo năng lực học sinh. Ứng dụng được thiết kế dành riêng cho các trung tâm luyện thi và học sinh, giúp tối ưu quá trình học tập thông qua hệ thống đánh giá năng lực thời gian thực và gợi ý câu hỏi phù hợp với trình độ hiện tại.
+
+Website CCAT tích hợp nhiều chức năng như đăng nhập học sinh – giáo viên, theo dõi tiến trình học, kho đề luyện phong phú, bài giảng video kết hợp chatbot trợ giảng, và đặc biệt là hệ thống làm bài kiểm tra thích ứng. Dựa trên mô hình IRT (Item Response Theory) và công nghệ LLM và RAG, CCAT không chỉ lựa chọn câu hỏi phù hợp mà còn cung cấp phản hồi cá nhân hóa, hỗ trợ học sinh học đúng trọng tâm và hiệu quả hơn.</p>
   <hr>
 
   <h2 id="ccat">2. CCAT - Collaborative Computerized Adaptive Testing</h2>
@@ -120,7 +121,7 @@ nhân hóa trải nghiệm học tập, cải thiện hiệu quả học tập v
       </tr>
     </tbody>
   </table>
-  <p>📋 The results in each grid are evaluated using IRT on the left and CCAT on the right, respectively.</p>
+  <p>📋Kết quả được hiển thị ở bảng bên dưới</p>
 
   <h4>Inter Ranking Consistency</h4>
   <table border="1" cellspacing="0" cellpadding="5">
@@ -369,17 +370,13 @@ python app.py</code></pre>
   </li>
 </ol>
 
-  <h2 id="license">7. License</h2>
-  <p>Dự án này được cấp phép theo <strong>MIT License</strong>. Vui lòng xem file LICENSE để biết thêm thông tin chi tiết.</p>
-
   <hr>
 
   <h2 id="citation">8. Citation</h2>
   <p>Nếu bạn sử dụng hoặc chia sẻ dự án, vui lòng trích dẫn theo thông tin sau:</p>
   <pre><code>
-Tác giả: [Tên tác giả hoặc nhóm phát triển]
+Tác giả: Cộng đồng ChatGPT
 Dự án: CCAT - Collaborative Computerized Adaptive Testing
-Liên kết: [URL dự án hoặc repository]
   </code></pre>
 
 </body>
