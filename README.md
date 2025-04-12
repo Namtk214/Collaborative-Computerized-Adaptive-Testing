@@ -40,12 +40,14 @@ SAT, GMAT, GRE. Với các trung tâm này, CCAT sẽ là công cụ tuyệt v�
 soát trình độ học sinh và mở rộng quy mô. Còn với học sinh thì hệ thống này sẽ cá
 nhân hóa trải nghiệm học tập, cải thiện hiệu quả học tập và gây bớt nhàm chán..</p>
 
+<p>Nhờ tích hợp mô hình ngôn ngữ lớn (LLM) và kỹ thuật RAG (Retrieval-Augmented Generation), CCAT có khả năng nhận biết học sinh yếu ở phần nào, ghi nhớ tiến trình học tập và đưa ra phản hồi cá nhân hóa. Khi học sinh trả lời sai, hệ thống sẽ không chỉ đưa ra đáp án đúng mà còn giải thích theo đúng chương trình học đã định.</p>
+
   <hr>
 
   <h2 id="danh-gia">3. Đánh giá về thuật toán CCAT</h2>
   <p>Thuật toán CCAT phân tích độ khó của các câu hỏi và kết quả của các bài kiểm tra trước đó để liên tục hiệu chỉnh bài kiểm tra hiện tại. Việc đánh giá này giúp cá nhân hóa quá trình kiểm tra, đảm bảo rằng mỗi bài kiểm tra phản ánh đúng khả năng của từng học sinh.</p>
 
-  <h3>So sánh kết </h3>
+  <h3>So sánh kết quả quả</h3>
   <p>Our model achieves the following performance on:</p>
 
   <h4>Intra Ranking Consistency (MCMC)</h4>
@@ -186,6 +188,8 @@ nhân hóa trải nghiệm học tập, cải thiện hiệu quả học tập v
 
   <h2 id="chay-local">5. Cách để chạy local</h2>
   <p>Dưới đây là hướng dẫn cài đặt và chạy dự án trên máy tính cá nhân:</p>
+  <h3>Sơ đồ hệ thống</h3>
+  <img src = "https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/sys%20des.png">
 
   <h3>5.1. Chạy giao diện người dùng (UI - React)</h3>
   <pre><code class="language-bash">
