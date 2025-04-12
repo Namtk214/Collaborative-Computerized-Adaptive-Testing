@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <img src= "https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/sigmaTom.jpg">
+  <img src= "https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/sigmaTom.jpg" style="width: 300px; height: auto;">
   <h1>CCAT - Collaborative Computerized Adaptive Testing</h1>
 
   <h2>Table of Contents</h2>
