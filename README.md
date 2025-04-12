@@ -30,9 +30,9 @@
   <p>Hệ thống còn tích hợp mô hình ngôn ngữ lớn (LLM) kết hợp với RAG để phản hồi cá nhân hóa. Khi học sinh làm sai, hệ thống không chỉ đưa ra đáp án đúng mà còn giải thích sát với chương trình học, đảm bảo không bị “bịa” thông tin.</p>
 
 <p>Ngân hàng câu hỏi được thu thập từ nhiều nguồn và xử lý tự động: chuẩn hóa, phân loại, gán nhãn, và embedding ngữ nghĩa. Độ khó câu hỏi được điều chỉnh liên tục theo dữ liệu thực tế từ người học.</p>
-<p>CCAT (Collaborative Computerized Adaptive Testing) là một nền tảng web thông minh hỗ trợ kiểm tra và luyện tập thích ứng theo năng lực học sinh. Ứng dụng được thiết kế dành riêng cho các trung tâm luyện thi và học sinh, giúp tối ưu quá trình học tập thông qua hệ thống đánh giá năng lực thời gian thực và gợi ý câu hỏi phù hợp với trình độ hiện tại.
+<p> Ngoài ra, nhóm cũng đã tích hợp dự án lên một nền tảng web thông minh hỗ trợ kiểm tra và luyện tập thích ứng theo năng lực học sinh. Ứng dụng được thiết kế dành riêng cho các trung tâm luyện thi và học sinh, giúp tối ưu quá trình học tập thông qua hệ thống đánh giá năng lực thời gian thực và gợi ý câu hỏi phù hợp với trình độ hiện tại.
 
-Website CCAT tích hợp nhiều chức năng như đăng nhập học sinh – giáo viên, theo dõi tiến trình học, kho đề luyện phong phú, bài giảng video kết hợp chatbot trợ giảng, và đặc biệt là hệ thống làm bài kiểm tra thích ứng. Dựa trên mô hình IRT (Item Response Theory) và công nghệ LLM và RAG, CCAT không chỉ lựa chọn câu hỏi phù hợp mà còn cung cấp phản hồi cá nhân hóa, hỗ trợ học sinh học đúng trọng tâm và hiệu quả hơn.</p>
+Website tích hợp nhiều chức năng như đăng nhập học sinh – giáo viên, theo dõi tiến trình học, kho đề luyện phong phú, bài giảng video kết hợp chatbot trợ giảng, và đặc biệt là hệ thống làm bài kiểm tra thích ứng. Dựa trên mô hình IRT (Item Response Theory) và công nghệ LLM và RAG, CCAT không chỉ lựa chọn câu hỏi phù hợp mà còn cung cấp phản hồi cá nhân hóa, hỗ trợ học sinh học đúng trọng tâm và hiệu quả hơn.</p>
   <hr>
 
   <h2 id="ccat">2. CCAT - Collaborative Computerized Adaptive Testing</h2>
