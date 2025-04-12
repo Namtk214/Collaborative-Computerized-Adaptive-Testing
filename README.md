@@ -25,7 +25,13 @@
 
   <h2 id="gioi-thieu">1. Giới thiệu về dự án</h2>
   <p>Dự án CCAT là hệ thống kiểm tra thích ứng giúp đánh giá năng lực của học sinh dựa trên các bài kiểm tra được cá nhân hóa. Hệ thống nhằm tối ưu hóa quá trình đánh giá và cải thiện trải nghiệm học tập.</p>
+  <p>là một hệ thống kiểm tra thích ứng theo thời gian thực, được xây dựng dựa trên lý thuyết IRT và tối ưu hóa bằng thuật toán MAP. Khi bắt đầu bài thi, hệ thống giả định tất cả học sinh có trình độ ngang nhau và đưa ra câu hỏi trung bình để đánh giá năng lực ban đầu. Sau mỗi câu trả lời, năng lực học sinh được cập nhật và câu hỏi tiếp theo được chọn sao cho phù hợp – vừa sức, không quá dễ hay quá khó.</p>
+  
+  <p>Việc triển khai CCAT không tốn nhiều chi phí tính toán, chỉ cần một ngân hàng đề thi chất lượng và đủ dữ liệu. Ví dụ, một bài thi 20 câu cần ít nhất 60 câu hỏi trong ngân hàng, mỗi câu nên có tối thiểu 30 lượt làm bài.</p>
+  
+  <p>Hệ thống còn tích hợp mô hình ngôn ngữ lớn (LLM) kết hợp với RAG để phản hồi cá nhân hóa. Khi học sinh làm sai, hệ thống không chỉ đưa ra đáp án đúng mà còn giải thích sát với chương trình học, đảm bảo không bị “bịa” thông tin.</p>
 
+<p>Ngân hàng câu hỏi được thu thập từ nhiều nguồn và xử lý tự động: chuẩn hóa, phân loại, gán nhãn, và embedding ngữ nghĩa. Độ khó câu hỏi được điều chỉnh liên tục theo dữ liệu thực tế từ người học.</p>
   <hr>
 
   <h2 id="ccat">2. CCAT - Collaborative Computerized Adaptive Testing</h2>
@@ -208,7 +214,7 @@ python main.py --reload</code></pre>
   <p>Tải các thư viện cần thiết trong requirements:</p>
   <pre><code class="language-setup">pip install -r requirements.txt</code></pre>
 
-  <h3>Data Preprocessing</h3>
+  <h3>tiền xử lý dữ liệu</h3>
   <p><strong>Trong Repository này đã preprocess data nên có thể skip bước này.</strong></p>
   <p>Cấu trúc lại thư mục như sau:</p>
   <pre><code class="language-train">
@@ -227,7 +233,8 @@ data/
   <p>To preprocessing the dataset, run:</p>
   <pre><code class="language-train">cd data
 python prepare_data.py --data_name='NIPS2020'</code></pre>
-  <p>📋 <strong>prepare_data.py</strong> will delete students with less than 50 answering records, as well as delete questions with less than 50 answering times. The dataset will be divided into a training set (collaborative students) and a testing set (tested students) in a 4:1 ratio. The outputs of prepare_data.py are <strong>train_triples.csv</strong>, <strong>test_triples.csv</strong>, <strong>triples.csv</strong>, <strong>metadata.json</strong>, <strong>concept_map.json</strong>.</p>
+  <p>📋 <strong>prepare_data.py</strong>Sẽ xóa các học sinh có ít hơn 50 lượt trả lời, cũng như xóa các câu hỏi có ít hơn 50 lượt được trả lời.
+Bộ dữ liệu sẽ được chia thành tập huấn luyện (học sinh cộng tác) và tập kiểm tra (học sinh được kiểm tra) theo tỷ lệ 4:1. Kết quả đầu ra của tệp prepare_data.py là train_triples.csv.</strong>, <strong>test_triples.csv</strong>, <strong>triples.csv</strong>, <strong>metadata.json</strong>, <strong>concept_map.json</strong>.</p>
 
   <table border="1" cellspacing="0" cellpadding="5">
     <thead>
@@ -267,8 +274,8 @@ python prepare_data.py --data_name='NIPS2020'</code></pre>
   </table>
   <p>To get the parameter of <font size="4"><a href="https://link.springer.com/book/10.1007/978-0-387-89976-3" target="_blank">IRT</a></font> estimated by mcmc method, run:</p>
   <pre><code class="language-train">python mcmc.py --data_name='NIPS2020'</code></pre>
-  <p>📋 <strong>mcmc.py</strong> will use Monte Carlo sampling on the dataset to perform posterior estimation on the IRT model, in order to obtain the parameters of the IRT model. The outputs are <strong>alpha.npy</strong> and <strong>beta.npy</strong>, which contain the discrimination and difficulty of questions.</p>
-  <p>After the data preprocess, the folder becomes (which is provided):</p>
+  <p>📋 <strong>mcmc.py</strong> sẽ sử dụng phương pháp lấy mẫu Monte Carlo trên tập dữ liệu để ước lượng hậu nghiệm cho mô hình IRT, nhằm thu được các tham số của mô hình này. Kết quả đầu ra <strong>alpha.npy</strong> and <strong>beta.npy</strong>, chứa thông tin về độ phân biệt và độ khó của các câu hỏi.</p>
+  <p> Sau khi tiền xử lý dữ liệu, thư mục sẽ có cấu trúc như sau (đã được cung cấp sẵn).</p>
   <pre><code class="language-train">
 data/
 │
