@@ -309,7 +309,7 @@ python app.py</code></pre>
     </li>
     <li>
       <strong>Bài kiểm tra đánh giá năng lực:</strong>
-      Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như hình bên dưới:
+      Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như bên dưới. Các câu hỏi hiện đang được lấy từ dataset NIPS 2020, các câu hỏi định dạng trắc nghiệm 4 đáp án đúng. Ngoài ra, website cũng hiển thị thêm hai đồ thị, trong đó đồ thị đường thể hiện sự thay đổi theta ứng với mỗi câu trả lời của học sinh còn biểu đồ phân phối chuẩn thể hiện điểm số của em học sinh đó so với các 'anchor student' đã được hệ thống thu thập trước đó.
       <br>
       <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021417.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
     </li>
