@@ -6,7 +6,7 @@
 </head>
 <body>
 
-  <h1>Tên dự án: CCAT - Collaborative Computerized Adaptive Testing</h1>
+  <h1>CCAT - Collaborative Computerized Adaptive Testing</h1>
 
   <h2>Table of Contents</h2>
   <ol>
@@ -28,14 +28,24 @@
   <hr>
 
   <h2 id="ccat">2. CCAT - Collaborative Computerized Adaptive Testing</h2>
-  <p>CCAT là một phương pháp kiểm tra hiện đại sử dụng thuật toán tự động điều chỉnh độ khó của câu hỏi dựa trên hiệu suất của học sinh. Hệ thống này giúp tạo ra các bài kiểm tra phù hợp và chính xác hơn trong việc đánh giá năng lực.</p>
+  <p>Dự án xây dựng một hệ thống giúp đánh giá chính xác trình độ học sinh bằng
+Collaborative Computerized Adaptive Testing (CCAT) kết hợp với mô hình ngôn
+ngữ lớn (LLM) để hỗ trợ hỏi đáp. Hệ thống giúp cá nhân hóa lộ trình học tập và hỗ
+trợ học sinh trong việc luyện tập kiến thức dễ dàng hơn.</p>
+
+<p>CCAT là ứng dụng tiên phong giúp trung tâm luyện thi cá nhân hóa việc học tập
+của học sinh. Và các trung tâm chúng em nói đến ở đây chính là các trung tâm ôn
+thi các bài thi chuẩn hoá trong nước lẫn ngoài nước như luyện thi TSA, ĐGNL,
+SAT, GMAT, GRE. Với các trung tâm này, CCAT sẽ là công cụ tuyệt vời để kiểm
+soát trình độ học sinh và mở rộng quy mô. Còn với học sinh thì hệ thống này sẽ cá
+nhân hóa trải nghiệm học tập, cải thiện hiệu quả học tập và gây bớt nhàm chán..</p>
 
   <hr>
 
   <h2 id="danh-gia">3. Đánh giá về thuật toán CCAT</h2>
   <p>Thuật toán CCAT phân tích độ khó của các câu hỏi và kết quả của các bài kiểm tra trước đó để liên tục hiệu chỉnh bài kiểm tra hiện tại. Việc đánh giá này giúp cá nhân hóa quá trình kiểm tra, đảm bảo rằng mỗi bài kiểm tra phản ánh đúng khả năng của từng học sinh.</p>
 
-  <h3>Results</h3>
+  <h3>So sánh kết </h3>
   <p>Our model achieves the following performance on:</p>
 
   <h4>Intra Ranking Consistency (MCMC)</h4>
