@@ -1,0 +1,12 @@
+langchain_openai
+dotenv
+# argparse
+# os
+langchain_text_splitters
+langchain_chroma
+langchain community nhé 
+langchain_community.vectorstores not found. Please install langchain-community
+FAISSFAISS
+python -m pip install google-genai
+
+fastparquet

@@ -1,0 +1,57 @@
+/* AttemptDetail.css */
+.attempt-container {
+  padding: 24px 32px;
+  background: #f6f9fc; /* Background nhẹ nhàng */
+  min-height: 100vh;
+}
+
+.attempt-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.candidate-info {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+
+.candidate-info h3 {
+  margin: 0 0 8px;
+}
+
+.question-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.question-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.question-card.correct {
+  border-left: 4px solid #28a745;
+  background: #e8f5e9; /* Màu xanh nhẹ */
+}
+
+.question-card.wrong {
+  border-left: 4px solid #dc3545;
+  background: #ffebee; /* Màu đỏ nhẹ */
+}
+
+.back-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
