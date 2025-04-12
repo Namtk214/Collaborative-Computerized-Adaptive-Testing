@@ -275,47 +275,77 @@ python app.py</code></pre>
   <p>API LLM sẽ chạy tại: <a href="http://localhost:5000" target="_blank">http://localhost:8500</a> (hoặc port được cấu hình trong file <code>app.py</code>)</p>
  
   <hr>
-  <h2>6. Hướng dẫn người dùng sử dụng ứng dụng</h2>
-  <ol>
-    <li>
-      Mở trình duyệt và truy cập: 
-      <a href="http://localhost:5173" target="_blank">http://localhost:5173</a>
-    </li>
-    <li>
-      Đăng ký hoặc đăng nhập bằng tài khoản dành cho học sinh hoặc giáo viên.
-      <br>
-      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20020655.png" alt="Ảnh 1: Giao diện đăng nhập" style="max-width:100%;">
-    </li>
-    <li>
-      <strong>Trải nghiệm khóa học:</strong>
-      <ul>
-        <li>
-          Khi nhấn vào <em>Course</em>, giao diện các khóa học sẽ hiển thị.
-          <br>
-          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021027.png" alt="Ảnh 2: Giao diện danh sách khóa học" style="max-width:100%;">
-        </li>
-        <li>
-          Khi chọn một khóa học, bạn sẽ được chuyển đến trang hiển thị video bài giảng và chatbot hỗ trợ.
-          <br>
-          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/%E1%BA%A2nh%20video.png" alt="Ảnh 3: Video bài giảng và chatbot hỗ trợ" style="max-width:100%;">
-                <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/AI.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
-        </li>
-      </ul>
-    </li>
-    <li>
-      <strong>Dashboard:</strong>
-      Khi bấm vào dashboard, giao diện sẽ hiển thị theo như hình bên dưới:
-      <br>
-      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20025605.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
-      
-    </li>
-    <li>
-      <strong>Bài kiểm tra đánh giá năng lực:</strong>
-      Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như bên dưới. Các câu hỏi hiện đang được lấy từ dataset NIPS 2020, các câu hỏi định dạng trắc nghiệm 4 đáp án đúng. Ngoài ra, website cũng hiển thị thêm hai đồ thị, trong đó đồ thị đường thể hiện sự thay đổi theta ứng với mỗi câu trả lời của học sinh còn biểu đồ phân phối chuẩn thể hiện điểm số của em học sinh đó so với các 'anchor student' đã được hệ thống thu thập trước đó.
-      <br>
-      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/b%C3%A0i%20l%C3%A0m.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
-    </li>
-  </ol>
+   <h2>6. Hướng dẫn người dùng sử dụng ứng dụng</h2>
+<ol>
+  <li>
+    Mở trình duyệt và truy cập:
+    <a href="http://localhost:5173" target="_blank">http://localhost:5173</a>
+  </li>
+
+  <li>
+    Đăng ký hoặc đăng nhập bằng tài khoản dành cho học sinh hoặc giáo viên.
+    <br>
+    <img 
+      src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20020655.png" 
+      alt="Ảnh 1: Giao diện đăng nhập" 
+      style="max-width: 100%;"
+    >
+  </li>
+
+  <li>
+    <strong>Trải nghiệm khóa học:</strong>
+    <ul>
+      <li>
+        Khi nhấn vào <em>Course</em>, giao diện các khóa học sẽ hiển thị.
+        <br>
+        <img 
+          src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021027.png" 
+          alt="Ảnh 2: Giao diện danh sách khóa học" 
+          style="max-width: 100%;"
+        >
+      </li>
+      <li>
+        Khi chọn một khóa học, bạn sẽ được chuyển đến trang hiển thị video bài giảng và chatbot hỗ trợ.
+        <br>
+        <img 
+          src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/%E1%BA%A2nh%20video.png" 
+          alt="Ảnh 3: Video bài giảng" 
+          style="max-width: 100%;"
+        >
+        <br>
+        <img 
+          src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/AI.png" 
+          alt="Ảnh 4: Chatbot hỗ trợ" 
+          style="max-width: 100%;"
+        >
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Dashboard:</strong>
+    Khi bấm vào dashboard, giao diện sẽ hiển thị như hình bên dưới:
+    <br>
+    <img 
+      src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20025605.png" 
+      alt="Ảnh 5: Giao diện dashboard" 
+      style="max-width: 100%;"
+    >
+  </li>
+
+  <li>
+    <strong>Bài kiểm tra đánh giá năng lực:</strong>
+    Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như bên dưới. Các câu hỏi hiện đang được lấy từ dataset NIPS 2020, định dạng trắc nghiệm 4 đáp án đúng. Ngoài ra, website cũng hiển thị thêm hai đồ thị:  
+    - Đồ thị đường: thể hiện sự thay đổi theta ứng với mỗi câu trả lời của học sinh  
+    - Biểu đồ phân phối chuẩn: thể hiện điểm số của học sinh đó so với các 'anchor student' đã được hệ thống thu thập trước đó.
+    <br>
+    <img 
+      src="https://raw.githubusercontent.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/main/b%C3%A0i%20l%C3%A0m.png" 
+      alt="Ảnh 6: Giao diện bài test đánh giá năng lực" 
+      style="max-width: 100%;"
+    >
+  </li>
+</ol>
 
   <h2 id="license">7. License</h2>
   <p>Dự án này được cấp phép theo <strong>MIT License</strong>. Vui lòng xem file LICENSE để biết thêm thông tin chi tiết.</p>
