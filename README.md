@@ -297,7 +297,8 @@ python app.py</code></pre>
         <li>
           Khi chọn một khóa học, bạn sẽ được chuyển đến trang hiển thị video bài giảng và chatbot hỗ trợ.
           <br>
-          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021139.png" alt="Ảnh 3: Video bài giảng và chatbot hỗ trợ" style="max-width:100%;">
+          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/%E1%BA%A2nh%20video.png" alt="Ảnh 3: Video bài giảng và chatbot hỗ trợ" style="max-width:100%;">
+                <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/AI.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
         </li>
       </ul>
     </li>
@@ -305,13 +306,14 @@ python app.py</code></pre>
       <strong>Dashboard:</strong>
       Khi bấm vào dashboard, giao diện sẽ hiển thị theo như hình bên dưới:
       <br>
-      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021232.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
+      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20025605.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
+      
     </li>
     <li>
       <strong>Bài kiểm tra đánh giá năng lực:</strong>
       Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như bên dưới. Các câu hỏi hiện đang được lấy từ dataset NIPS 2020, các câu hỏi định dạng trắc nghiệm 4 đáp án đúng. Ngoài ra, website cũng hiển thị thêm hai đồ thị, trong đó đồ thị đường thể hiện sự thay đổi theta ứng với mỗi câu trả lời của học sinh còn biểu đồ phân phối chuẩn thể hiện điểm số của em học sinh đó so với các 'anchor student' đã được hệ thống thu thập trước đó.
       <br>
-      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021417.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
+      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/b%C3%A0i%20l%C3%A0m.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
     </li>
   </ol>
 
