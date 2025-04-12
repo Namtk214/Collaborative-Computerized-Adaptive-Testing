@@ -284,7 +284,7 @@ python app.py</code></pre>
     <li>
       Đăng ký hoặc đăng nhập bằng tài khoản dành cho học sinh hoặc giáo viên.
       <br>
-      <img src="YOUR_IMAGE_URL_FOR_UI_LOGIN" alt="Ảnh 1: Giao diện đăng nhập" style="max-width:100%;">
+      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20020655.png" alt="Ảnh 1: Giao diện đăng nhập" style="max-width:100%;">
     </li>
     <li>
       <strong>Trải nghiệm khóa học:</strong>
@@ -292,12 +292,12 @@ python app.py</code></pre>
         <li>
           Khi nhấn vào <em>Course</em>, giao diện các khóa học sẽ hiển thị.
           <br>
-          <img src="YOUR_IMAGE_URL_FOR_COURSES" alt="Ảnh 2: Giao diện danh sách khóa học" style="max-width:100%;">
+          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021027.png" alt="Ảnh 2: Giao diện danh sách khóa học" style="max-width:100%;">
         </li>
         <li>
           Khi chọn một khóa học, bạn sẽ được chuyển đến trang hiển thị video bài giảng và chatbot hỗ trợ.
           <br>
-          <img src="YOUR_IMAGE_URL_FOR_VIDEO_CHATBOT" alt="Ảnh 3: Video bài giảng và chatbot hỗ trợ" style="max-width:100%;">
+          <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021139.png" alt="Ảnh 3: Video bài giảng và chatbot hỗ trợ" style="max-width:100%;">
         </li>
       </ul>
     </li>
@@ -305,13 +305,13 @@ python app.py</code></pre>
       <strong>Dashboard:</strong>
       Khi bấm vào dashboard, giao diện sẽ hiển thị theo như hình bên dưới:
       <br>
-      <img src="YOUR_IMAGE_URL_FOR_DASHBOARD" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
+      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021232.png" alt="Ảnh 4: Giao diện dashboard" style="max-width:100%;">
     </li>
     <li>
       <strong>Bài kiểm tra đánh giá năng lực:</strong>
       Giao diện thực hiện bài test đánh giá trình độ dựa trên năng lực thực sẽ hiển thị như hình bên dưới:
       <br>
-      <img src="Ảnh chụp màn hình 2025-04-13 021417.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
+      <img src="https://github.com/Namtk214/Collaborative-Computerized-Adaptive-Testing/blob/main/image/%E1%BA%A2nh%20ch%E1%BB%A5p%20m%C3%A0n%20h%C3%ACnh%202025-04-13%20021417.png" alt="Ảnh 5: Giao diện bài test đánh giá năng lực" style="max-width:100%;">
     </li>
   </ol>
 
